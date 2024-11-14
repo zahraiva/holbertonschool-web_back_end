@@ -1,12 +1,16 @@
-function taskFirst() {
-    const task1 = 'task first';
+export function taskFirst() {
+    const task1 = 'I prefer const when I can.';
+    console.log(task1);
     return task1;
-}
-
-function taskNext() {
-    let taskn = 'task next';
-    return taskn;
-}
-
-console.log(taskFirst());
-console.log(taskNext());
+  }
+  
+  export function getLast() {
+    return ' is okay';
+  }
+  
+  export function taskNext() {
+    let combination = 'But sometimes let';
+    combination += getLast();
+    console.log(combination);
+    return combination;
+  }
