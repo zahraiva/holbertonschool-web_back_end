@@ -1,7 +1,6 @@
 export function taskFirst() {
-    const task = 'I prefer const when I can.';
-    console.log(task);
-    return task;
+    const task1 = 'I prefer const when I can.';
+    return task1;
   }
   
   export function getLast() {
@@ -11,6 +10,5 @@ export function taskFirst() {
   export function taskNext() {
     let combination = 'But sometimes let';
     combination += getLast();
-    console.log(combination);
     return combination;
   }
