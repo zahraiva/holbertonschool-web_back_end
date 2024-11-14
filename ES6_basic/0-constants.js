@@ -7,3 +7,6 @@ function taskNext() {
     let taskn = 'task next';
     return taskn;
 }
+
+console.log(taskFirst());
+console.log(taskNext());
